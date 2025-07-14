@@ -1,7 +1,7 @@
 import asyncio
 
 from aiohttp import ClientSession
-from skodaconnect import Connection
+from myskoda import Connection
 from skodaconnect.vehicle import Vehicle
 
 from .. import fhem, generic
