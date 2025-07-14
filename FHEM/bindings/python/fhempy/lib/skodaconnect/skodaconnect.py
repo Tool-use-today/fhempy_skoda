@@ -1,7 +1,7 @@
 import asyncio
 
 from aiohttp import ClientSession
-from myskoda import vehicle_connection_status
+from myskoda import authorization
 from myskoda import vehicle
 
 from .. import fhem, generic
